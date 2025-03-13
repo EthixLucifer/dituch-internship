@@ -1,0 +1,1 @@
+web: gunicorn employee_time_tracking.wsgi --log-file -
