@@ -36,6 +36,8 @@ db.sqlite3
 *.pyd
 *.pdb
 venv/
+
+employee-time-tracking/
 # Node project
 node_modules/
 npm-debug.log
