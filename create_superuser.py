@@ -1,5 +1,10 @@
 import os
+import django
 from django.contrib.auth import get_user_model
+
+# Set up Django settings
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'employee_time_tracking.settings')
+django.setup()
 
 def create_superuser():
     User = get_user_model()
